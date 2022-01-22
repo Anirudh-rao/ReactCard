@@ -1,17 +1,25 @@
+//React imposr
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const page = (
+  <div>
+    <img src="./Images/logo192.png" width="140rem"></img>
+  <h1>Fun Facts About React</h1>
+  <ul>
+  <li>Was originally released in 2013</li>
+  <li>Was originally created by Jordane Walker</li>
+  <li>Has well over 100k stars in Github</li>
+  <li>Is maintained by Facebook</li>
+  <li>Powers thousands of applications , including mobile apps</li>
+  </ul>
+  </div>
+)
+
+
+
+
+ReactDOM.render(page,document.getElementById('root'));
+
+
